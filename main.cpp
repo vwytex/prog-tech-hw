@@ -7,5 +7,6 @@ int main() {
     std::cout << "Введите второе целое число: ";
     std::cin >> b;
     std::cout << "Вы ввели: " << a << " и " << b << std::endl;
+    std::cout << a << " + " << b << " = " << a + b << std::endl;
     return 0;
 }
